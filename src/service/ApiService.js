@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default class ApiService {
 
-    static BASE_URL = "http://localhost:2424";
+    static BASE_URL = "https://backend-spring-gj01.onrender.com";
 
     static getHeader() {
         const token = localStorage.getItem("token");
